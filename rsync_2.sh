@@ -18,3 +18,4 @@
 
 # actual
 rsync -r --delete /home/user01/Documents/rsync/source-dir/ /home/user01/Documents/rsync/destination-dir/
+
