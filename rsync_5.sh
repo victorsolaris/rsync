@@ -5,6 +5,7 @@
 # [3] Archive: Include contents, permissions, symlinks, modification times
 # [4] Backup
 # [5] Remote source
+# [6] Compression
 
 # Notes
 # Requires authorized ssh keys
@@ -28,7 +29,7 @@
 
 # remote source
 # compression
-rsync -az --delete user01@192.168.10.2:/share/source-client2/ /home/user01/Documents/rsync/destination-dir
+# rsync -az --delete user01@192.168.10.2:/share/source-client2/ /home/user01/Documents/rsync/destination-dir
 
 
 
