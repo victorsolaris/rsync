@@ -11,7 +11,7 @@
 # - actual
 
 # dry run
-rsync -rnv /home/user01/Documents/rsync/source-dir/ /home/user01/Documents/rsync/destination-dir/
+#rsync -rnv /home/user01/Documents/rsync/source-dir/ /home/user01/Documents/rsync/destination-dir/
 
 # actual
 rsync -r /home/user01/Documents/rsync/source-dir/ /home/user01/Documents/rsync/destination-dir/
