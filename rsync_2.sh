@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # [1] Synchronize the contents of destination directory with the source directory.
-# [2] Delete the contents of destination directory if it's not in the source. 
+# [2] Recursive
+# [3] Delete the contents of destination directory if it's not in the source. 
 
 # Options 
 # [ -r ]: recursive
