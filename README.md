@@ -6,14 +6,14 @@
 5. rsync_5.sh
 6. rsync_6.s
 
-### rsync_1.sh
+### +++++ rsync_1.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 
 **Options:**   <br />
 > [ -r ]: recursive <br />
 
-### rsync_2.sh
+### +++++ rsync_2.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Delete the contents of destination directory if it's not in the source.  <br />
@@ -23,7 +23,7 @@
 > [ -v ]: verbose <br />
 > [ -n ]: dry run <br />
 
-### rsync_3.sh
+### +++++ rsync_3.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Archive: Include contents, permissions, symlinks, modification times <br />
@@ -33,7 +33,7 @@
 > [ -v ]: verbose <br />
 > [ -n ]: dry run <br />
 
-### rsync_4.sh <br />
+### +++++ rsync_4.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Archive: Include contents, permissions, symlinks, modification times <br />
@@ -45,7 +45,7 @@
 > [ -n ]: dry run <br />
 > [ -b ]: backup <br />
 
-### rsync_5.sh
+### +++++ rsync_5.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Archive: Include contents, permissions, symlinks, modification times <br />
@@ -62,7 +62,7 @@
 > [ -n ]: dry run <br />
 > [ -z ]: compression <br />
 
-### rsync_6.sh <br />
+### +++++ rsync_6.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Archive: Include contents, permissions, symlinks, modification times <br />
