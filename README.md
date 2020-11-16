@@ -10,15 +10,15 @@
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 
-**Options**   <br />
-	[ -r ]: recursive <br />
+**Options:**   <br />
+   [ -r ]: recursive <br />
 
 ### rsync_2.sh
 1. Synchronize the contents of destination directory with the source directory. <br />
 2. Recursive <br />
 3. Delete the contents of destination directory if it's not in the source.  <br />
 
-**Options**  <br />
+**Options:**  <br />
 [ -r ]: recursive <br />
 [ -v ]: verbose <br />
 [ -n ]: dryrun <br />
@@ -28,7 +28,7 @@
 2. Recursive <br />
 3. Archive: Include contents, permissions, symlinks, modification times <br />
 
-**Options**  <br />
+**Options:**  <br />
 [ -a ]: archive + recursive <br />
 [ -v ]: verbose <br />
 [ -n ]: dryrun <br />
@@ -39,7 +39,7 @@
 3. Archive: Include contents, permissions, symlinks, modification times <br />
 4. Backup <br />
 
-**Options** <br />
+**Options:** <br />
 [ -a ]: archive + recursive <br />
 [ -v ]: verbose <br />
 [ -n ]: dryrun <br />
@@ -56,7 +56,7 @@
 **Notes** <br />
  Requires authorized ssh keys <br />
 
-**Options**  <br />
+**Options:**  <br />
 [ -a ]: archive + recursive <br />
 [ -v ]: verbose <br />
 [ -n ]: dryrun <br />
@@ -72,7 +72,7 @@
 **Notes** <br />
 Requires authorized ssh keys <br />
 
-**Options**  <br />
+**Options:**  <br />
 [ -a ]: archive + recursive <br />
 [ -v ]: verbose <br />
 [ -n ]: dryrun <br />
