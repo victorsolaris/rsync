@@ -11,7 +11,7 @@
 2. Recursive <br />
 
 **Options:**   <br />
-   [ -r ]: recursive <br />
+> [ -r ]: recursive <br />
 
 ### rsync_2.sh
 1. Synchronize the contents of destination directory with the source directory. <br />
