@@ -9,8 +9,8 @@
 6. rsync_6.sh
 
 ### rsync_1.sh
-[1] Synchronize the contents of destination directory with the source directory
-[2] Recursive
+[1] Synchronize the contents of destination directory with the source directory <br />
+[2] Recursive <br />
 
 Options 
 [ -r ]: recursive
