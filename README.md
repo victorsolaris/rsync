@@ -4,7 +4,7 @@
 3. rsync_3.sh
 4. rsync_4.sh
 5. rsync_5.sh
-6. rsync_6.s
+6. rsync_6.sh
 
 ### +++++ rsync_1.sh +++++
 1. Synchronize the contents of destination directory with the source directory. <br />
