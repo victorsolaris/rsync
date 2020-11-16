@@ -19,9 +19,9 @@
 3. Delete the contents of destination directory if it's not in the source.  <br />
 
 **Options:**  <br />
-[ -r ]: recursive <br />
-[ -v ]: verbose <br />
-[ -n ]: dryrun <br />
+> [ -r ]: recursive <br />
+> [ -v ]: verbose <br />
+> [ -n ]: dryrun <br />
 
 ### rsync_3.sh
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -29,9 +29,9 @@
 3. Archive: Include contents, permissions, symlinks, modification times <br />
 
 **Options:**  <br />
-[ -a ]: archive + recursive <br />
-[ -v ]: verbose <br />
-[ -n ]: dryrun <br />
+> [ -a ]: archive + recursive <br />
+> [ -v ]: verbose <br />
+> [ -n ]: dryrun <br />
 
 ### rsync_4.sh <br />
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -40,10 +40,10 @@
 4. Backup <br />
 
 **Options:** <br />
-[ -a ]: archive + recursive <br />
-[ -v ]: verbose <br />
-[ -n ]: dryrun <br />
-[ -b ]: backup <br />
+> [ -a ]: archive + recursive <br />
+> [ -v ]: verbose <br />
+> [ -n ]: dryrun <br />
+> [ -b ]: backup <br />
 
 ### rsync_5.sh
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -57,10 +57,10 @@
  Requires authorized ssh keys <br />
 
 **Options:**  <br />
-[ -a ]: archive + recursive <br />
-[ -v ]: verbose <br />
-[ -n ]: dryrun <br />
-[ -z ]: compression <br />
+> [ -a ]: archive + recursive <br />
+> [ -v ]: verbose <br />
+> [ -n ]: dryrun <br />
+> [ -z ]: compression <br />
 
 ### rsync_6.sh <br />
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -73,6 +73,6 @@
 Requires authorized ssh keys <br />
 
 **Options:**  <br />
-[ -a ]: archive + recursive <br />
-[ -v ]: verbose <br />
-[ -n ]: dryrun <br />
+> [ -a ]: archive + recursive <br />
+> [ -v ]: verbose <br />
+> [ -n ]: dryrun <br />
