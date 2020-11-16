@@ -21,7 +21,7 @@
 **Options:**  <br />
 > [ -r ]: recursive <br />
 > [ -v ]: verbose <br />
-> [ -n ]: dryrun <br />
+> [ -n ]: dry run <br />
 
 ### rsync_3.sh
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -31,7 +31,7 @@
 **Options:**  <br />
 > [ -a ]: archive + recursive <br />
 > [ -v ]: verbose <br />
-> [ -n ]: dryrun <br />
+> [ -n ]: dry run <br />
 
 ### rsync_4.sh <br />
 1. Synchronize the contents of destination directory with the source directory. <br />
@@ -42,7 +42,7 @@
 **Options:** <br />
 > [ -a ]: archive + recursive <br />
 > [ -v ]: verbose <br />
-> [ -n ]: dryrun <br />
+> [ -n ]: dry run <br />
 > [ -b ]: backup <br />
 
 ### rsync_5.sh
@@ -59,7 +59,7 @@
 **Options:**  <br />
 > [ -a ]: archive + recursive <br />
 > [ -v ]: verbose <br />
-> [ -n ]: dryrun <br />
+> [ -n ]: dry run <br />
 > [ -z ]: compression <br />
 
 ### rsync_6.sh <br />
@@ -75,4 +75,4 @@ Requires authorized ssh keys <br />
 **Options:**  <br />
 > [ -a ]: archive + recursive <br />
 > [ -v ]: verbose <br />
-> [ -n ]: dryrun <br />
+> [ -n ]: dry run <br />
