@@ -22,6 +22,7 @@
 
 # 	REFERENCES
 # [1] https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option
+# [2] https://stackoverflow.com/questions/9392735/linux-how-to-copy-but-not-overwrite
 
 #	SUMMARY
 # set variables
