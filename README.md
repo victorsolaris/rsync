@@ -92,5 +92,5 @@ Requires authorized ssh keys <br />
 > [ -v ]: verbose <br />
 > [ -n ]: dry run <br />
 > [ -f ]: filter rule <br />
-
+> [ --ignore-existing ]: do not overwrite existing files <br />
 
