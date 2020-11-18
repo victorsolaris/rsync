@@ -1,0 +1,72 @@
+### Code review checklist for rsync_7.sh
+
+# Source Directory: /home/user01/Documents/rsync/source-dir
+# Destination Directory: /home/user01/Documents/rsync/destination-dir
+# Log Directory: /var/log/rync_7.sh.log
+
+Command: 
+rsync -rv --ignore-existing -f"+ */" -f"+ *.fqgz" -f"- *" "$SRCDIR/" "$DSTDIR/" | tee -a "./$LOG"
+
+# 	REQUIREMENTS SUMMARY
+# Progress: 5/6
+# Synchronize destination folder with source folder [1]
+# Search subdirectories [1]
+# Do not overwrite / update existing files [1]
+# Only copy .fqgz files in all subdirectories and maintain directory tree [1]
+# Create log file in script directory [1]
+# Crontab: every 30 minutes []
+
+#	CHECKLIST
+[1] Synchronize destination folder with source folder
+	+ RULES
+		[x] rsync
+	+ TESTS
+		[x] create file in source
+		[x] create dir in source
+		[x] diff -qr source destination
+			- option -q: only report when files differ
+			- option -r: recursive (search through subdirectories) 
+[1] Search subdirectories
+	+ RULES
+		[x] Option: -r
+	+ TEST
+		[x] create file in dir in source
+		[x] diff -qr source destination
+			- option -q: only report when files differ
+			- option -r: recursive (search through subdirectories) 
+[1] Do not overwrite / update existing files
+	+ RULES
+		[x] --ignore-existing
+	+ TEST
+		[x] update existing file in source
+		[x] create new file in source
+		[x] verify destination has new file
+		[x] verify destination has not updated old file
+		[x] diff -qr source destination
+			- option -q: only report when files differ
+			- option -r: recursive (search through subdirectories)
+
+[1] Only copy .fqgz files in all subdirectories and maintain directory tree
+	+ RULES
+		[x] Include all subdirectories: -f"+ */"
+		[x] Include all .fqgz files: -f"+ *.fqgz"
+		[x] Exclude everything else: -f"- *"
+	+ TESTS
+		[x] tree command, compare directory structure and files
+		[x] main directory
+		[x] 1 level(s) subdirectory
+		[] 2 level(s) subdirectory
+		[] 3 level(s) subdirectory
+
+[1] Create log file in script directory
+	+ RULES
+		[x] Log: $0.log
+	+ TESTS
+		[x] check log in script's current directory
+[] Crontab
+	+ RULES
+		[] Every 30 minutes: 30 * * * *
+	+ TEST
+		[] Make changes and verify every 30 minutes (2)
+
+
