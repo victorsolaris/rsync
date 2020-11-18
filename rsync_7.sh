@@ -20,6 +20,9 @@
 # [ -f ]: filter rule
 # [ --ignore-existing ]: do not overwrite existing files
 
+# 	REFERENCES
+# [1] https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option
+
 #	SUMMARY
 # set variables
 # command
